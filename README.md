@@ -1,2 +1,2 @@
-# emojify.github.io
-Emoji bot created for HackPrinceton
+# Emojify Bot Created for HackPrinceton Fall 2017
+Emojify essentially receives a tweets from Twitter users that contain the marker @EmojifyOfficial. Then, we took the images from the tweets and passed it to another process that identified human faces in the image. Then we logged the location of the faces and replaced them with appropriately sized emoji faces. However, importantly, our program can detect the emotions displayed by the people in the image and display the corresponding emoji image. After this, the edited image is tweeted back at the original tweeters.
